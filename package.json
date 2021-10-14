@@ -1,0 +1,17 @@
+{
+  "name": "vitepress-starter-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "fast-glob": "^3.2.7",
+    "globby": "^12.0.2",
+    "gray-matter": "^4.0.3",
+    "vitepress": "^0.20.0"
+  }
+}

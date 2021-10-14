@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    
+  },
+  "include": [
+    "docs/.vitepress/theme/**/*.ts",
+    "docs/.vitepress/theme/**/*.vue"
+  ],
+  "exclude": ["node_modules"]
+}
